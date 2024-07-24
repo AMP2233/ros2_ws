@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'py_pubsub'
+package_name = 'py_srvcli'
 
 setup(
     name=package_name,
@@ -20,11 +20,11 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'talker = py_pubsub.publisher_script:main', #Indica que el script que se va mostrar es el que se genero hace rato
-            'listener = py_pubsub.listener:main',
-            #'topics_practice = py_pubsub.topics_practice:main'
-            'topics_practice = py_pubsub.topics_practice:main',
-            'topics_practice_b = py_pubsub.topics_practice_b:main'
+            'service_node = py_srvcli.service_node:main',
+            'client_node = py_srvcli.client_node:main',
+            'client_subscription_node = py_srvcli.client_subcription_node:main',
+            'service_practice = py_srvcli.service_practice:main',
+            'service_practice_b = py_srvcli.service_practice_b:main',
         ],
     },
 )
