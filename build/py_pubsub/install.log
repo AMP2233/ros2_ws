@@ -1,8 +1,12 @@
 /ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/listener.py
 /ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_script.py
+/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/topics_practice.py
+/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/topics_practice_b.py
 /ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py
 /ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__pycache__/listener.cpython-310.pyc
 /ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__pycache__/publisher_script.cpython-310.pyc
+/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__pycache__/topics_practice.cpython-310.pyc
+/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__pycache__/topics_practice_b.cpython-310.pyc
 /ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__pycache__/__init__.cpython-310.pyc
 /ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages/py_pubsub
 /ros2_ws/install/py_pubsub/share/py_pubsub/package.xml
@@ -15,3 +19,5 @@
 /ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info/zip-safe
 /ros2_ws/install/py_pubsub/lib/py_pubsub/listener
 /ros2_ws/install/py_pubsub/lib/py_pubsub/talker
+/ros2_ws/install/py_pubsub/lib/py_pubsub/topics_practice
+/ros2_ws/install/py_pubsub/lib/py_pubsub/topics_practice_b

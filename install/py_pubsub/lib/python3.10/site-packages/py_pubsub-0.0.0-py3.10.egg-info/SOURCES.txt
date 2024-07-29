@@ -12,6 +12,8 @@ setup.py
 py_pubsub/__init__.py
 py_pubsub/listener.py
 py_pubsub/publisher_script.py
+py_pubsub/topics_practice.py
+py_pubsub/topics_practice_b.py
 resource/py_pubsub
 test/test_copyright.py
 test/test_flake8.py

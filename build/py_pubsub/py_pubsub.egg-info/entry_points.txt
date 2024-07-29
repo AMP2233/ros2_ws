@@ -1,4 +1,6 @@
 [console_scripts]
 listener = py_pubsub.listener:main
 talker = py_pubsub.publisher_script:main
+topics_practice = py_pubsub.topics_practice:main
+topics_practice_b = py_pubsub.topics_practice_b:main
 
