@@ -13,7 +13,6 @@ def generate_launch_description():
                {"background_g": 0},
                {"background_b": 0}
             ]
-          
       ),
       Node(
             package='turtlesim',
@@ -30,7 +29,7 @@ def generate_launch_description():
                ('/output/cmd_vel', '/turtlesim2/turtle1/cmd_vel'),
             ]
       ),
-      Node(
+        Node(
             package='turtlesim',
             executable='turtle_teleop_key',
             name='teleop',

@@ -23,6 +23,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'twist_publisher = py_launch_example.twist_publisher:main',
+            'cmd_vel_replicator = py_launch_example.cmd_vel_replicator:main'
         ],
     },
 )

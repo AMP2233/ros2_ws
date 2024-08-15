@@ -13,7 +13,6 @@ def generate_launch_description():
                {"background_g": 0},
                {"background_b": 0}
             ]
-          
       ),
       Node(
             package='turtlesim',
@@ -31,13 +30,9 @@ def generate_launch_description():
             ]
       ),
       Node(
-            package='turtlesim',
-            executable='turtle_teleop_key',
-            name='teleop',
-            output='screen',
-            remappings=[
-                ('/cmd_vel', '/turtlesim1/turtle1/cmd_vel'),
-
-            ]
+            package='py_launch_example',
+            executable='twist_publisher',
+            name='twist_publisher',
+            output='screen'
       )
    ])
